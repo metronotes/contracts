@@ -1497,7 +1497,7 @@ contract HYPERTET is ERC20, Ownable {
 
     address public _marketingWalletAddress = 0x46FF7626A5AbEd2F518bC3ec1261Efd503683eB0;
     address public _devWalletAddress = 0x6C1739456c14f0c1935a68D4ACb94Eb07cE18B0B;
-    address public _lockerAddress = 0xD088D99900E61ce9C45e0934383ee9097797B686;
+    address public _lockerAddress = 0x1bD7fA28682FFdF3e4FCeAD4AADED5BFBaA21a92;
 
 
     // use by default 300,000 gas to process auto-claiming dividends
