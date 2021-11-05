@@ -1112,7 +1112,7 @@ contract DividendPayingToken is ERC20, Ownable, DividendPayingTokenInterface, Di
   using SafeMathUint for uint256;
   using SafeMathInt for int256;
 
-  address public immutable TET = address(0x43308565c0204c8076a291f0726f914c3133ce34); //TET
+  address public immutable TET = address(0x43308565C0204C8076A291F0726f914c3133CE34); //TET
 
   // With `magnitude`, we can properly distribute dividends even if the amount of received ether is small.
   // For more discussion about choosing the value of `magnitude`,
@@ -1484,7 +1484,7 @@ contract HYPERTET is ERC20, Ownable {
 
     address public deadWallet = 0x000000000000000000000000000000000000dEaD;
 
-    address public immutable TET = address(0x43308565c0204c8076a291f0726f914c3133ce34); //TET
+    address public immutable TET = address(0x43308565C0204C8076A291F0726f914c3133CE34); //TET
     uint256 public swapTokensAtAmount = 2000000 * (10**18);
     
     mapping(address => bool) public _isBlacklisted;
